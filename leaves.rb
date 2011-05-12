@@ -12,7 +12,7 @@ module Leaves
   end
 
   def find
-    PATTERNS.each { |p| system "grep '#{p}' #{files.join(' ')}" }
+    PATTERNS.each { |p| system "grep -H '#{p}' #{files.join(' ')}" }
   end
 
 end
