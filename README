@@ -1,0 +1,3 @@
+A rake task for finding stuff you shouldn't leave in your files before check in.
+
+"rake leaves"
