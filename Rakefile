@@ -1,5 +1,2 @@
-require File.dirname(__FILE__) + '/leaves.rb'
-
-task :leaves do
-  Leaves.find
-end
+require 'bundler'
+Bundler::GemHelper.install_tasks
